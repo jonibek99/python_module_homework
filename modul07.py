@@ -11,3 +11,6 @@ def calculate_ceiling_floor(number):
     Returns:
         tuple: A tuple containing the ceiling and floor values of the number.
     """
+    return(math.ceil(number),math.floor(number))
+a=float(input())
+print(calculate_ceiling_floor(a))

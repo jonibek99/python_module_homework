@@ -11,4 +11,9 @@ def calculate_power(base, exponent):
 
     Returns:
         float: The result of raising the base to the exponent.
+
     """
+    return math.pow(base,exponent)
+a=float(input())
+b=float(input())
+print(calculate_power(a,b))

@@ -10,4 +10,8 @@ def perform_trigonometric_calculations(angle):
 
     Returns:
         tuple: A tuple containing the sine, cosine, and tangent of the angle.
+        
     """
+    return math.degrees(angle)
+a=float(input())
+print(perform_trigonometric_calculations(a))
